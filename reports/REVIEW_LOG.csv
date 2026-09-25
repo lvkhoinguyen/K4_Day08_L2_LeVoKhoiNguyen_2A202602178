@@ -1,0 +1,5 @@
+round,frame_id,object,action,rule_or_reason
+1,frame_0099.jpg,xe tối và bị lóa đèn phía xa,added,AI bỏ sót xe trong bóng tối, thêm box ôm sát thân xe theo GUIDELINE_LABEL.md
+1,frame_0182.jpg,box giả do ánh đèn phản chiếu mặt đường,deleted,Vệt đèn pha chiếu xuống đường không phải thân xe theo GUIDELINE_LABEL.md
+1,frame_0331.jpg,box trùng lặp trên cùng một xe,deleted,Xóa box bị duplicate do ngưỡng NMS thấp
+1,frame_0326.jpg,xe ở xa phía làn đối diện chỉ thấy cụm đèn,added,Bổ sung xe ở xa theo đường viền cụm đèn theo GUIDELINE_LABEL.md
